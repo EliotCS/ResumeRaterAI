@@ -37,9 +37,25 @@ While building this project, I practiced:
 This project demonstrates my ability to design, build, and deploy a full-stack AI web application from scratch. Combining a fast Python backend with a modern React frontend allowed me to master real-world software engineering challenges—including file streaming, prompt engineering, API error handling, structured data parsing, and sleek UI/UX design.
 
 ## Preview
-![ResumeRaterAI Dashboard Preview](https://github.com/user-attachments/assets/your-preview-screenshot-here.png)
+![ResumeRaterAI Dashboard Preview](https://github.com/user-attachments/assets/53fbb54e-5d6d-4db1-a6d1-32940e347b34)
 
 
+# Run the backend server
+### 1. Backend Setup
+```bash
+# Clone the repository
+git clone [https://github.com/your-username/ResumeRaterAI.git](https://github.com/your-username/ResumeRaterAI.git)
+cd ResumeRaterAI/backend
+
+# Create and activate virtual environment
+python -m venv .venv
+source .venv/Scripts/activate  # On Windows Bash: source .venv/Scripts/activate
+
+# Install dependencies
+pip install fastapi uvicorn google-genai pypdf python-docx python-multipart python-dotenv
+
+# Create a .env file and add your Gemini API key
+echo "GEMINI_API_KEY=your_gemini_api_key_here" > .env
 
 # Run the backend server
 uvicorn main:app --reload
