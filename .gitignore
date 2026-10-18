@@ -1,0 +1,13 @@
+# Environment & Secret Keys
+.env
+*.env
+
+# Python Virtual Environment & Cache
+.venv/
+venv/
+__pycache__/
+
+# Frontend Node Modules & Build
+node_modules/
+dist/
+build/

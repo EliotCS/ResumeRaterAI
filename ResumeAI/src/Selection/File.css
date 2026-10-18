@@ -1,0 +1,245 @@
+.uploadFileBox {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+}
+.FileInput {
+    display: none;
+}
+
+.dropzone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 220px;
+    padding: 30px;
+    border: 2px solid rgb(138, 43, 226);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.dropzone2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dropzone:hover {
+    background-color: rgba(137, 43, 226, 0.145);
+    border-color: #a855f7;
+    box-shadow: 0px 0px 10px #a855f7 ;
+    transform: translateY(-1px);
+}
+
+.dropzone-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.upload-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 6px;
+}
+
+.file-types {
+    font-size: 0.95rem;
+    color: #bbb;
+}
+
+.previewContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.file-info-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.093);
+    padding: 8px 12px;
+    border-radius: 20px;
+    color: white;
+    border: 2px solid rgba(79, 29, 125, 0.306) ;
+
+}
+
+.file-name {
+    margin: 0;
+    font-weight: 500;
+    word-break: break-all;
+    color: whitesmoke;
+    font-size: bold;
+}
+
+.remove-btn {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 7px 14px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.remove-btn:hover {
+    background-color: #a21a1a;
+}
+
+.pdf-preview {
+    width: 100%;
+    height: 500px;
+    border: none;
+    }
+
+    .pdf-preview-wrapper {
+    width: 100%;
+    height: 480px;
+    border: 2px solid rgba(30, 6, 52, 0.899) ; 
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: white;
+}
+.docx-notice {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(138, 43, 226, 0.15);
+    border: 1px solid rgba(79, 29, 125, 0.306) ;
+    border-radius: 8px;
+    color: white;
+}
+
+.dropzone.dragging {
+    background-color: rgba(138, 43, 226, 0.25);
+    border-color: #c084fc;
+    transform: scale(1.02);
+}.uploadFileBox {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+}
+.FileInput {
+    display: none;
+}
+
+.dropzone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 220px;
+    padding: 30px;
+    border: 2px solid rgb(138, 43, 226);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.dropzone2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dropzone:hover {
+    background-color: rgba(137, 43, 226, 0.145);
+    border-color: #a855f7;
+    box-shadow: 0px 0px 10px #a855f7 ;
+    transform: translateY(-1px);
+}
+
+.dropzone-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.upload-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 6px;
+}
+
+.file-types {
+    font-size: 0.95rem;
+    color: #bbb;
+}
+
+.previewContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.file-info-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.093);
+    padding: 8px 12px;
+    border-radius: 20px;
+    color: white;
+    border: 2px solid rgba(79, 29, 125, 0.306) ;
+
+}
+
+.file-name {
+    margin: 0;
+    font-weight: 500;
+    word-break: break-all;
+    color: whitesmoke;
+    font-size: bold;
+}
+
+.remove-btn {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 7px 14px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.remove-btn:hover {
+    background-color: #a21a1a;
+}
+
+.pdf-preview {
+    width: 100%;
+    height: 500px;
+    border: none;
+    }
+
+    .pdf-preview-wrapper {
+    width: 100%;
+    height: 480px;
+    border: 2px solid rgba(30, 6, 52, 0.899) ; 
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: white;
+}
+.docx-notice {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(138, 43, 226, 0.15);
+    border: 1px solid rgba(79, 29, 125, 0.306) ;
+    border-radius: 8px;
+    color: white;
+}
+
+.dropzone.dragging {
+    background-color: rgba(138, 43, 226, 0.25);
+    border-color: #c084fc;
+    transform: scale(1.02);
+}

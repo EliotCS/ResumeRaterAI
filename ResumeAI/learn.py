@@ -1,0 +1,8 @@
+from fastapi import FastAPI
+
+app = FastAPI()
+
+#GET # GET AN INFORMATION
+#POST # CREATE SOMETHING NEW 
+#PUT # UPDATE
+#DELETE #DELETE SOMETHING
